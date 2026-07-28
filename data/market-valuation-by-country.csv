@@ -1,0 +1,23 @@
+# Stock market valuation by country - Fair Value Calculator (https://www.fairvalue-calculator.com) - 2026-07, as of 2026-07-16
+# Free to use under CC BY 4.0 with attribution. A credit or link to https://www.fairvalue-calculator.com/stock-market-valuation-statistics is appreciated.
+country,percent_above_fair_value,upside_percent,sample_size
+"Taiwan",63.9,-39,1847
+"Australia",54,-35,1060
+"India",51.4,-33.9,3271
+"USA",49,-32.9,6037
+"Korea",48.4,-32.6,1473
+"Norway",44.1,-30.6,174
+"Canada",38.1,-27.6,599
+"Switzerland",27.6,-21.6,179
+"Finland",25.7,-20.5,156
+"UK",24.4,-19.6,845
+"Italy",18.1,-15.3,279
+"Thailand",18,-15.3,719
+"Malaysia",8.7,-8,872
+"China",8.6,-7.9,4060
+"Sweden",8,-7.4,464
+"France",6.9,-6.5,471
+"Germany",0,0,356
+"Singapore",-0.8,0.8,416
+"Poland",-6.2,6.6,315
+"Vietnam",-11.5,13,171

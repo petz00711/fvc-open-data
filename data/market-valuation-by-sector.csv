@@ -1,0 +1,14 @@
+# Stock market valuation by sector - Fair Value Calculator (https://www.fairvalue-calculator.com) - 2026-07, as of 2026-07-16
+# Free to use under CC BY 4.0 with attribution. A credit or link to https://www.fairvalue-calculator.com/stock-market-valuation-statistics is appreciated.
+sector,percent_above_fair_value,upside_percent,sample_size
+"Information Technology",110.9,-52.6,3473
+"Industrials",43.8,-30.4,5037
+"Health Care",33.3,-25,2021
+"Consumer Staples",32.8,-24.7,1582
+"Utilities",31,-23.7,620
+"Real Estate",28.9,-22.4,1742
+"Materials",28.6,-22.2,3384
+"Communication Services",22.6,-18.4,1080
+"Energy",20.2,-16.8,1087
+"Consumer Discretionary",19.5,-16.3,3536
+"Financials",-3,3.1,3298
