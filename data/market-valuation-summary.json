@@ -3,8 +3,8 @@
     "url": "https://www.fairvalue-calculator.com/stock-market-valuation-statistics",
     "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). A credit or link to https://www.fairvalue-calculator.com is appreciated.",
     "method": "Fair value estimated from multiple valuation models across 35,000+ listed stocks; \"percent_above_fair_value\" is the cap-weighted gap between price and fair value (positive = overvalued).",
-    "month": "2026-08",
-    "as_of": "2026-08-01",
+    "month": "2026-09",
+    "as_of": "2026-09-01",
     "world": {
         "percent_above_fair_value": 34.6,
         "valuation_label": "Very Expensive"
@@ -12,191 +12,191 @@
     "by_sector": [
         {
             "name": "Information Technology",
-            "percent_above_fair_value": 100.1,
-            "upside_percent": -50,
-            "sample_size": 3479
-        },
-        {
-            "name": "Industrials",
-            "percent_above_fair_value": 46,
-            "upside_percent": -31.5,
-            "sample_size": 5204
-        },
-        {
-            "name": "Health Care",
-            "percent_above_fair_value": 37.3,
-            "upside_percent": -27.2,
-            "sample_size": 2034
-        },
-        {
-            "name": "Consumer Staples",
-            "percent_above_fair_value": 34.9,
-            "upside_percent": -25.9,
-            "sample_size": 1650
-        },
-        {
-            "name": "Energy",
-            "percent_above_fair_value": 32.3,
-            "upside_percent": -24.4,
-            "sample_size": 1073
+            "percent_above_fair_value": 71.7,
+            "upside_percent": -41.7,
+            "sample_size": 3377
         },
         {
             "name": "Materials",
-            "percent_above_fair_value": 31.6,
-            "upside_percent": -24,
-            "sample_size": 3296
+            "percent_above_fair_value": 43,
+            "upside_percent": -30.1,
+            "sample_size": 3216
         },
         {
-            "name": "Utilities",
-            "percent_above_fair_value": 30.8,
-            "upside_percent": -23.5,
-            "sample_size": 632
-        },
-        {
-            "name": "Real Estate",
-            "percent_above_fair_value": 30.3,
-            "upside_percent": -23.2,
-            "sample_size": 1821
-        },
-        {
-            "name": "Consumer Discretionary",
-            "percent_above_fair_value": 22.8,
-            "upside_percent": -18.6,
-            "sample_size": 3624
+            "name": "Industrials",
+            "percent_above_fair_value": 41.8,
+            "upside_percent": -29.5,
+            "sample_size": 5145
         },
         {
             "name": "Communication Services",
-            "percent_above_fair_value": 15.1,
-            "upside_percent": -13.1,
+            "percent_above_fair_value": 41.3,
+            "upside_percent": -29.2,
             "sample_size": 1072
         },
         {
+            "name": "Energy",
+            "percent_above_fair_value": 37.1,
+            "upside_percent": -27.1,
+            "sample_size": 1075
+        },
+        {
+            "name": "Health Care",
+            "percent_above_fair_value": 36.4,
+            "upside_percent": -26.7,
+            "sample_size": 1986
+        },
+        {
+            "name": "Utilities",
+            "percent_above_fair_value": 34.1,
+            "upside_percent": -25.4,
+            "sample_size": 649
+        },
+        {
+            "name": "Real Estate",
+            "percent_above_fair_value": 28.8,
+            "upside_percent": -22.4,
+            "sample_size": 1791
+        },
+        {
+            "name": "Consumer Staples",
+            "percent_above_fair_value": 28.7,
+            "upside_percent": -22.3,
+            "sample_size": 1705
+        },
+        {
+            "name": "Consumer Discretionary",
+            "percent_above_fair_value": 17.4,
+            "upside_percent": -14.8,
+            "sample_size": 3687
+        },
+        {
             "name": "Financials",
-            "percent_above_fair_value": 1.7,
-            "upside_percent": -1.7,
-            "sample_size": 3389
+            "percent_above_fair_value": 5.5,
+            "upside_percent": -5.2,
+            "sample_size": 3231
         }
     ],
     "by_country": [
         {
-            "name": "Taiwan",
-            "percent_above_fair_value": 62.2,
-            "upside_percent": -38.4,
-            "sample_size": 1868
-        },
-        {
-            "name": "India",
-            "percent_above_fair_value": 54.9,
-            "upside_percent": -35.4,
-            "sample_size": 3235
-        },
-        {
-            "name": "Australia",
-            "percent_above_fair_value": 53.7,
-            "upside_percent": -34.9,
-            "sample_size": 1044
+            "name": "UK",
+            "percent_above_fair_value": 58,
+            "upside_percent": -36.7,
+            "sample_size": 668
         },
         {
             "name": "USA",
-            "percent_above_fair_value": 50.3,
-            "upside_percent": -33.5,
-            "sample_size": 5790
+            "percent_above_fair_value": 52.2,
+            "upside_percent": -34.3,
+            "sample_size": 5288
         },
         {
-            "name": "Norway",
-            "percent_above_fair_value": 44.7,
-            "upside_percent": -30.9,
-            "sample_size": 178
+            "name": "Australia",
+            "percent_above_fair_value": 52.1,
+            "upside_percent": -34.3,
+            "sample_size": 1003
         },
         {
-            "name": "Canada",
-            "percent_above_fair_value": 40.7,
-            "upside_percent": -28.9,
-            "sample_size": 598
+            "name": "India",
+            "percent_above_fair_value": 51.8,
+            "upside_percent": -34.1,
+            "sample_size": 3247
         },
         {
             "name": "Switzerland",
-            "percent_above_fair_value": 34.2,
-            "upside_percent": -25.5,
+            "percent_above_fair_value": 45.6,
+            "upside_percent": -31.3,
             "sample_size": 180
         },
         {
             "name": "Finland",
-            "percent_above_fair_value": 29.8,
-            "upside_percent": -22.9,
-            "sample_size": 158
+            "percent_above_fair_value": 43.5,
+            "upside_percent": -30.3,
+            "sample_size": 156
         },
         {
-            "name": "Saudi Arabia",
-            "percent_above_fair_value": 24.2,
-            "upside_percent": -19.5,
-            "sample_size": 263
+            "name": "Taiwan",
+            "percent_above_fair_value": 38.3,
+            "upside_percent": -27.7,
+            "sample_size": 1836
         },
         {
-            "name": "Italy",
-            "percent_above_fair_value": 21,
-            "upside_percent": -17.3,
-            "sample_size": 277
+            "name": "Canada",
+            "percent_above_fair_value": 33.9,
+            "upside_percent": -25.3,
+            "sample_size": 534
         },
         {
             "name": "Spain",
-            "percent_above_fair_value": 18.4,
-            "upside_percent": -15.5,
-            "sample_size": 175
+            "percent_above_fair_value": 32.5,
+            "upside_percent": -24.6,
+            "sample_size": 176
         },
         {
-            "name": "Korea",
-            "percent_above_fair_value": 17.8,
-            "upside_percent": -15.1,
-            "sample_size": 1474
-        },
-        {
-            "name": "Thailand",
-            "percent_above_fair_value": 15.2,
-            "upside_percent": -13.2,
-            "sample_size": 737
-        },
-        {
-            "name": "Sweden",
-            "percent_above_fair_value": 14.9,
-            "upside_percent": -12.9,
-            "sample_size": 473
+            "name": "Italy",
+            "percent_above_fair_value": 31.6,
+            "upside_percent": -24,
+            "sample_size": 280
         },
         {
             "name": "Singapore",
-            "percent_above_fair_value": 14.4,
-            "upside_percent": -12.6,
-            "sample_size": 435
-        },
-        {
-            "name": "China",
-            "percent_above_fair_value": 13.4,
-            "upside_percent": -11.8,
-            "sample_size": 4000
-        },
-        {
-            "name": "Malaysia",
-            "percent_above_fair_value": 9,
-            "upside_percent": -8.3,
-            "sample_size": 871
+            "percent_above_fair_value": 28.6,
+            "upside_percent": -22.2,
+            "sample_size": 433
         },
         {
             "name": "Israel",
-            "percent_above_fair_value": 8.7,
-            "upside_percent": -8,
-            "sample_size": 262
+            "percent_above_fair_value": 27.4,
+            "upside_percent": -21.5,
+            "sample_size": 281
         },
         {
-            "name": "France",
-            "percent_above_fair_value": 7.7,
-            "upside_percent": -7.1,
-            "sample_size": 462
+            "name": "Korea",
+            "percent_above_fair_value": 24.1,
+            "upside_percent": -19.4,
+            "sample_size": 1463
+        },
+        {
+            "name": "Saudi Arabia",
+            "percent_above_fair_value": 23.7,
+            "upside_percent": -19.1,
+            "sample_size": 292
+        },
+        {
+            "name": "Norway",
+            "percent_above_fair_value": 20.2,
+            "upside_percent": -16.8,
+            "sample_size": 180
         },
         {
             "name": "Poland",
-            "percent_above_fair_value": 6.5,
-            "upside_percent": -6.1,
-            "sample_size": 323
+            "percent_above_fair_value": 19,
+            "upside_percent": -16,
+            "sample_size": 321
+        },
+        {
+            "name": "Germany",
+            "percent_above_fair_value": 18.7,
+            "upside_percent": -15.7,
+            "sample_size": 414
+        },
+        {
+            "name": "Thailand",
+            "percent_above_fair_value": 16.2,
+            "upside_percent": -13.9,
+            "sample_size": 740
+        },
+        {
+            "name": "Sweden",
+            "percent_above_fair_value": 15.3,
+            "upside_percent": -13.2,
+            "sample_size": 481
+        },
+        {
+            "name": "Malaysia",
+            "percent_above_fair_value": 11.6,
+            "upside_percent": -10.4,
+            "sample_size": 874
         }
     ]
 }

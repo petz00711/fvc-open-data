@@ -2,26 +2,16 @@
     "source": "Fair Value Calculator",
     "url": "https://www.fairvalue-calculator.com/undervalued-stocks",
     "license": "Free to use under CC BY 4.0 with attribution; a credit or link to https://www.fairvalue-calculator.com is appreciated",
-    "snapshot_date": "2026-08-30",
+    "snapshot_date": "2026-09-06",
+    "method_version": "v2026_08_28_extern_shares",
     "kind": "undervalued",
     "sector": null,
     "count": 40,
     "stocks": [
         {
-            "ticker": "PDD",
-            "company": "PDD Holdings Inc.",
-            "upside_pct": 163,
-            "quality_score": 66,
-            "price_local": 123.4,
-            "evidence": "high",
-            "sector": "consumer-cyclical",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/PDD"
-        },
-        {
             "ticker": "LULU",
             "company": "Lululemon Athletica Inc.",
-            "upside_pct": 148,
+            "upside_pct": 197.8,
             "quality_score": 70,
             "price_local": 13.2,
             "evidence": "high",
@@ -32,7 +22,7 @@
         {
             "ticker": "GIB",
             "company": "CGI Inc",
-            "upside_pct": 141.4,
+            "upside_pct": 145.9,
             "quality_score": 67,
             "price_local": 12.8,
             "evidence": "high",
@@ -41,9 +31,20 @@
             "url": "https://www.fairvalue-calculator.com/stock/GIB"
         },
         {
+            "ticker": "1109",
+            "company": "China Resources Land Ltd",
+            "upside_pct": 136.6,
+            "quality_score": 60,
+            "price_local": 27.3,
+            "evidence": "high",
+            "sector": "real-estate",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/1109"
+        },
+        {
             "ticker": "000651",
             "company": "Gree Electric Appliances Inc of Zhuhai",
-            "upside_pct": 122.8,
+            "upside_pct": 123,
             "quality_score": 65,
             "price_local": 31.9,
             "evidence": "high",
@@ -52,31 +53,9 @@
             "url": "https://www.fairvalue-calculator.com/stock/000651"
         },
         {
-            "ticker": "6690",
-            "company": "Haier Smart Home Co Ltd",
-            "upside_pct": 119.7,
-            "quality_score": 62,
-            "price_local": 23.6,
-            "evidence": "high",
-            "sector": "consumer-cyclical",
-            "country": "hong-kong",
-            "url": "https://www.fairvalue-calculator.com/stock/6690"
-        },
-        {
-            "ticker": "TIMB",
-            "company": "TIM Participacoes SA",
-            "upside_pct": 118.5,
-            "quality_score": 64,
-            "price_local": 10.3,
-            "evidence": "high",
-            "sector": "communication-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/TIMB"
-        },
-        {
             "ticker": "IMB",
             "company": "Imperial Brands PLC",
-            "upside_pct": 115.7,
+            "upside_pct": 119,
             "quality_score": 66,
             "price_local": 27.9,
             "evidence": "high",
@@ -85,31 +64,31 @@
             "url": "https://www.fairvalue-calculator.com/stock/IMB"
         },
         {
+            "ticker": "6690",
+            "company": "Haier Smart Home Co Ltd",
+            "upside_pct": 117,
+            "quality_score": 62,
+            "price_local": 23.6,
+            "evidence": "high",
+            "sector": "consumer-cyclical",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/6690"
+        },
+        {
             "ticker": "P1DD34",
             "company": "Pinduoduo Inc.",
             "upside_pct": 114.5,
             "quality_score": 67,
-            "price_local": 123,
+            "price_local": 124.9,
             "evidence": "high",
             "sector": "consumer-cyclical",
             "country": "brazil",
             "url": "https://www.fairvalue-calculator.com/stock/P1DD34"
         },
         {
-            "ticker": "BAP",
-            "company": "Credicorp Ltd",
-            "upside_pct": 107.7,
-            "quality_score": 70,
-            "price_local": 31.8,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/BAP"
-        },
-        {
             "ticker": "CTSH",
             "company": "Cognizant Technology Solutions Corp Class A",
-            "upside_pct": 106.1,
+            "upside_pct": 111.9,
             "quality_score": 76,
             "price_local": 21.2,
             "evidence": "high",
@@ -118,31 +97,9 @@
             "url": "https://www.fairvalue-calculator.com/stock/CTSH"
         },
         {
-            "ticker": "600000",
-            "company": "Shanghai Pudong Development Bank Co Ltd",
-            "upside_pct": 104,
-            "quality_score": 64,
-            "price_local": 44.9,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "china",
-            "url": "https://www.fairvalue-calculator.com/stock/600000"
-        },
-        {
-            "ticker": "GBOOY",
-            "company": "Grupo Financiero Banorte SAB de CV ADR",
-            "upside_pct": 104,
-            "quality_score": 64,
-            "price_local": 30.6,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/GBOOY"
-        },
-        {
             "ticker": "FMS",
             "company": "Fresenius Medical Care Corporation",
-            "upside_pct": 101,
+            "upside_pct": 104.9,
             "quality_score": 64,
             "price_local": 12.7,
             "evidence": "high",
@@ -151,9 +108,42 @@
             "url": "https://www.fairvalue-calculator.com/stock/FMS"
         },
         {
+            "ticker": "1698",
+            "company": "Tencent Music Entertainment Group",
+            "upside_pct": 104.9,
+            "quality_score": 75,
+            "price_local": 14.2,
+            "evidence": "high",
+            "sector": "communication-services",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/1698"
+        },
+        {
+            "ticker": "LDOS",
+            "company": "Leidos Holdings Inc",
+            "upside_pct": 104.3,
+            "quality_score": 73,
+            "price_local": 13.6,
+            "evidence": "high",
+            "sector": "technology",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/LDOS"
+        },
+        {
+            "ticker": "INVE-B",
+            "company": "Investor AB ser. B",
+            "upside_pct": 102.8,
+            "quality_score": 68,
+            "price_local": 126.3,
+            "evidence": "high",
+            "sector": "industrials",
+            "country": "sweden",
+            "url": "https://www.fairvalue-calculator.com/stock/INVE-B"
+        },
+        {
             "ticker": "INDU-C",
             "company": "Industrivarden AB ser. C",
-            "upside_pct": 98.3,
+            "upside_pct": 101.6,
             "quality_score": 67,
             "price_local": 24.3,
             "evidence": "high",
@@ -162,48 +152,26 @@
             "url": "https://www.fairvalue-calculator.com/stock/INDU-C"
         },
         {
-            "ticker": "INVE-B",
-            "company": "Investor AB ser. B",
-            "upside_pct": 97.7,
-            "quality_score": 68,
-            "price_local": 126,
+            "ticker": "600000",
+            "company": "Shanghai Pudong Development Bank Co Ltd",
+            "upside_pct": 94.7,
+            "quality_score": 64,
+            "price_local": 45,
             "evidence": "high",
-            "sector": "industrials",
-            "country": "sweden",
-            "url": "https://www.fairvalue-calculator.com/stock/INVE-B"
+            "sector": "financial-services",
+            "country": "china",
+            "url": "https://www.fairvalue-calculator.com/stock/600000"
         },
         {
-            "ticker": "1698",
-            "company": "Tencent Music Entertainment Group",
-            "upside_pct": 95.7,
-            "quality_score": 75,
-            "price_local": 14.3,
-            "evidence": "high",
-            "sector": "communication-services",
-            "country": "hong-kong",
-            "url": "https://www.fairvalue-calculator.com/stock/1698"
-        },
-        {
-            "ticker": "DNBBY",
-            "company": "DNB Bank ASA",
-            "upside_pct": 94.9,
-            "quality_score": 65,
-            "price_local": 43.4,
+            "ticker": "BAP",
+            "company": "Credicorp Ltd",
+            "upside_pct": 92.6,
+            "quality_score": 70,
+            "price_local": 31.8,
             "evidence": "high",
             "sector": "financial-services",
             "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/DNBBY"
-        },
-        {
-            "ticker": "LDOS",
-            "company": "Leidos Holdings Inc",
-            "upside_pct": 93.2,
-            "quality_score": 73,
-            "price_local": 13.6,
-            "evidence": "high",
-            "sector": "technology",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/LDOS"
+            "url": "https://www.fairvalue-calculator.com/stock/BAP"
         },
         {
             "ticker": "FSLR",
@@ -217,37 +185,26 @@
             "url": "https://www.fairvalue-calculator.com/stock/FSLR"
         },
         {
+            "ticker": "600926",
+            "company": "Bank of Hangzhou Co Ltd",
+            "upside_pct": 89.3,
+            "quality_score": 60,
+            "price_local": 16.7,
+            "evidence": "high",
+            "sector": "financial-services",
+            "country": "china",
+            "url": "https://www.fairvalue-calculator.com/stock/600926"
+        },
+        {
             "ticker": "000568",
             "company": "Luzhou Lao Jiao Co Ltd",
-            "upside_pct": 90.2,
+            "upside_pct": 86.6,
             "quality_score": 70,
             "price_local": 18.2,
             "evidence": "high",
             "sector": "consumer-defensive",
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/000568"
-        },
-        {
-            "ticker": "ALPMY",
-            "company": "Astellas Pharma Inc",
-            "upside_pct": 85.1,
-            "quality_score": 74,
-            "price_local": 23.8,
-            "evidence": "high",
-            "sector": "healthcare",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/ALPMY"
-        },
-        {
-            "ticker": "PRX",
-            "company": "Prosus N.V.",
-            "upside_pct": 84,
-            "quality_score": 68,
-            "price_local": 98,
-            "evidence": "high",
-            "sector": "communication-services",
-            "country": "netherlands",
-            "url": "https://www.fairvalue-calculator.com/stock/PRX"
         },
         {
             "ticker": "AVB",
@@ -261,53 +218,9 @@
             "url": "https://www.fairvalue-calculator.com/stock/AVB"
         },
         {
-            "ticker": "2628",
-            "company": "China Life Insurance Co Ltd",
-            "upside_pct": 82.7,
-            "quality_score": 62,
-            "price_local": 103.2,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "hong-kong",
-            "url": "https://www.fairvalue-calculator.com/stock/2628"
-        },
-        {
-            "ticker": "BKHPF",
-            "company": "Bank Hapoalim B.M",
-            "upside_pct": 82.6,
-            "quality_score": 67,
-            "price_local": 35.3,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/BKHPF"
-        },
-        {
-            "ticker": "9927",
-            "company": "Seres Group Co.,Ltd",
-            "upside_pct": 77.8,
-            "quality_score": 63,
-            "price_local": 10.2,
-            "evidence": "high",
-            "sector": "basic-materials",
-            "country": "hong-kong",
-            "url": "https://www.fairvalue-calculator.com/stock/9927"
-        },
-        {
-            "ticker": "CI",
-            "company": "Cigna Corp",
-            "upside_pct": 77.6,
-            "quality_score": 67,
-            "price_local": 77.6,
-            "evidence": "high",
-            "sector": "healthcare",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/CI"
-        },
-        {
             "ticker": "ACN",
             "company": "Accenture plc",
-            "upside_pct": 76.3,
+            "upside_pct": 79,
             "quality_score": 71,
             "price_local": 87.9,
             "evidence": "high",
@@ -316,9 +229,75 @@
             "url": "https://www.fairvalue-calculator.com/stock/ACN"
         },
         {
+            "ticker": "WIPRO",
+            "company": "Wipro Limited",
+            "upside_pct": 78.2,
+            "quality_score": 69,
+            "price_local": 18.6,
+            "evidence": "high",
+            "sector": "technology",
+            "country": "india",
+            "url": "https://www.fairvalue-calculator.com/stock/WIPRO"
+        },
+        {
+            "ticker": "9961",
+            "company": "Trip.com Group Ltd",
+            "upside_pct": 77.5,
+            "quality_score": 65,
+            "price_local": 26.4,
+            "evidence": "high",
+            "sector": "consumer-cyclical",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/9961"
+        },
+        {
+            "ticker": "CI",
+            "company": "Cigna Corp",
+            "upside_pct": 75.4,
+            "quality_score": 67,
+            "price_local": 77.6,
+            "evidence": "high",
+            "sector": "healthcare",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/CI"
+        },
+        {
+            "ticker": "2628",
+            "company": "China Life Insurance Co Ltd",
+            "upside_pct": 74,
+            "quality_score": 62,
+            "price_local": 103.1,
+            "evidence": "high",
+            "sector": "financial-services",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/2628"
+        },
+        {
+            "ticker": "INFY",
+            "company": "Infosys Limited",
+            "upside_pct": 73.2,
+            "quality_score": 83,
+            "price_local": 45.8,
+            "evidence": "high",
+            "sector": "technology",
+            "country": "india",
+            "url": "https://www.fairvalue-calculator.com/stock/INFY"
+        },
+        {
+            "ticker": "IOC",
+            "company": "Indian Oil Corporation Limited",
+            "upside_pct": 72,
+            "quality_score": 61,
+            "price_local": 20.8,
+            "evidence": "high",
+            "sector": "energy",
+            "country": "india",
+            "url": "https://www.fairvalue-calculator.com/stock/IOC"
+        },
+        {
             "ticker": "SYF",
             "company": "Synchrony Financial",
-            "upside_pct": 75.9,
+            "upside_pct": 71.8,
             "quality_score": 71,
             "price_local": 24.8,
             "evidence": "high",
@@ -327,70 +306,48 @@
             "url": "https://www.fairvalue-calculator.com/stock/SYF"
         },
         {
+            "ticker": "T",
+            "company": "AT&T Inc.",
+            "upside_pct": 71.2,
+            "quality_score": 61,
+            "price_local": 146.2,
+            "evidence": "high",
+            "sector": "communication-services",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/T"
+        },
+        {
+            "ticker": "RNR",
+            "company": "Renaissancere Holdings Ltd",
+            "upside_pct": 70.7,
+            "quality_score": 72,
+            "price_local": 13.4,
+            "evidence": "high",
+            "sector": "financial-services",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/RNR"
+        },
+        {
+            "ticker": "ADBE",
+            "company": "Adobe Systems Incorporated",
+            "upside_pct": 70.4,
+            "quality_score": 94,
+            "price_local": 88.9,
+            "evidence": "high",
+            "sector": "technology",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/ADBE"
+        },
+        {
             "ticker": "AD",
             "company": "Koninklijke Ahold Delhaize NV",
-            "upside_pct": 75,
+            "upside_pct": 69,
             "quality_score": 70,
-            "price_local": 37.1,
+            "price_local": 37.2,
             "evidence": "high",
             "sector": "consumer-defensive",
             "country": "netherlands",
             "url": "https://www.fairvalue-calculator.com/stock/AD"
-        },
-        {
-            "ticker": "WIPRO",
-            "company": "Wipro Limited",
-            "upside_pct": 73.7,
-            "quality_score": 69,
-            "price_local": 18.4,
-            "evidence": "high",
-            "sector": "technology",
-            "country": "india",
-            "url": "https://www.fairvalue-calculator.com/stock/WIPRO"
-        },
-        {
-            "ticker": "IOC",
-            "company": "Indian Oil Corporation Limited",
-            "upside_pct": 72.7,
-            "quality_score": 61,
-            "price_local": 20.6,
-            "evidence": "high",
-            "sector": "energy",
-            "country": "india",
-            "url": "https://www.fairvalue-calculator.com/stock/IOC"
-        },
-        {
-            "ticker": "TIMS3",
-            "company": "TIM S.A.",
-            "upside_pct": 72.2,
-            "quality_score": 67,
-            "price_local": 10.4,
-            "evidence": "high",
-            "sector": "communication-services",
-            "country": "brazil",
-            "url": "https://www.fairvalue-calculator.com/stock/TIMS3"
-        },
-        {
-            "ticker": "INFY",
-            "company": "Infosys Limited",
-            "upside_pct": 71.9,
-            "quality_score": 83,
-            "price_local": 45.4,
-            "evidence": "high",
-            "sector": "technology",
-            "country": "india",
-            "url": "https://www.fairvalue-calculator.com/stock/INFY"
-        },
-        {
-            "ticker": "CIB",
-            "company": "Grupo Cibest S.A.",
-            "upside_pct": 71.8,
-            "quality_score": 63,
-            "price_local": 19,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/CIB"
         },
         {
             "ticker": "FITBI",
@@ -404,9 +361,75 @@
             "url": "https://www.fairvalue-calculator.com/stock/FITBI"
         },
         {
+            "ticker": "8046",
+            "company": "Nan Ya Printed Circuit Board Corp",
+            "upside_pct": 67.6,
+            "quality_score": 67,
+            "price_local": 24.8,
+            "evidence": "high",
+            "sector": "technology",
+            "country": "taiwan",
+            "url": "https://www.fairvalue-calculator.com/stock/8046"
+        },
+        {
+            "ticker": "SNY",
+            "company": "Sanofi ADR",
+            "upside_pct": 66.6,
+            "quality_score": 77,
+            "price_local": 100,
+            "evidence": "high",
+            "sector": "healthcare",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/SNY"
+        },
+        {
+            "ticker": "TIMS3",
+            "company": "TIM S.A.",
+            "upside_pct": 66,
+            "quality_score": 67,
+            "price_local": 10.5,
+            "evidence": "high",
+            "sector": "communication-services",
+            "country": "brazil",
+            "url": "https://www.fairvalue-calculator.com/stock/TIMS3"
+        },
+        {
+            "ticker": "002001",
+            "company": "Zhejiang Nhu Co Ltd",
+            "upside_pct": 66,
+            "quality_score": 76,
+            "price_local": 13.2,
+            "evidence": "high",
+            "sector": "healthcare",
+            "country": "china",
+            "url": "https://www.fairvalue-calculator.com/stock/002001"
+        },
+        {
+            "ticker": "STR",
+            "company": "Strabag SE",
+            "upside_pct": 65.6,
+            "quality_score": 61,
+            "price_local": 11.2,
+            "evidence": "high",
+            "sector": "industrials",
+            "country": "",
+            "url": "https://www.fairvalue-calculator.com/stock/STR"
+        },
+        {
+            "ticker": "1913",
+            "company": "Prada SpA",
+            "upside_pct": 64.5,
+            "quality_score": 62,
+            "price_local": 12.6,
+            "evidence": "high",
+            "sector": "consumer-cyclical",
+            "country": "hong-kong",
+            "url": "https://www.fairvalue-calculator.com/stock/1913"
+        },
+        {
             "ticker": "601336",
             "company": "New China Life Insurance Co Ltd",
-            "upside_pct": 67.1,
+            "upside_pct": 60.5,
             "quality_score": 65,
             "price_local": 29.2,
             "evidence": "high",
@@ -415,37 +438,15 @@
             "url": "https://www.fairvalue-calculator.com/stock/601336"
         },
         {
-            "ticker": "IVSXF",
-            "company": "Investor AB (publ)",
-            "upside_pct": 66.4,
-            "quality_score": 68,
-            "price_local": 121.9,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/IVSXF"
-        },
-        {
-            "ticker": "9961",
-            "company": "Trip.com Group Ltd",
-            "upside_pct": 65.7,
-            "quality_score": 65,
-            "price_local": 26.5,
+            "ticker": "TOL",
+            "company": "Toll Brothers Inc",
+            "upside_pct": 56.2,
+            "quality_score": 64,
+            "price_local": 14.1,
             "evidence": "high",
             "sector": "consumer-cyclical",
-            "country": "hong-kong",
-            "url": "https://www.fairvalue-calculator.com/stock/9961"
-        },
-        {
-            "ticker": "SNY",
-            "company": "Sanofi ADR",
-            "upside_pct": 64.4,
-            "quality_score": 77,
-            "price_local": 100,
-            "evidence": "high",
-            "sector": "healthcare",
             "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/SNY"
+            "url": "https://www.fairvalue-calculator.com/stock/TOL"
         }
     ]
 }

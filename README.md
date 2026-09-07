@@ -7,7 +7,7 @@ worldwide** from multiple valuation models. Founder-run and online since 2016.
 These files are refreshed regularly from the live analysis. **Free to use under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** with attribution.
 
-> Snapshot month: **2026-08** (as of 2026-08-01) · World market: **34.6% above fair value** (Very Expensive)
+> Snapshot month: **2026-09** (as of 2026-09-01) · World market: **34.6% above fair value** (Very Expensive)
 
 ## Datasets
 
@@ -22,7 +22,7 @@ These files are refreshed regularly from the live analysis. **Free to use under
 
 ## How the data is built
 
-Fair value for each stock is estimated from multiple valuation models and 25 fundamental factors.
+Fair value for each stock is estimated from 26 valuation models and 37 fundamental factors.
 The market figures are the cap-weighted gap between price and fair value; a positive
 `percent_above_fair_value` means the market (or sector/country) trades **above** its estimated fair
 value. Full method: <https://www.fairvalue-calculator.com/methodology>.
@@ -32,7 +32,7 @@ Live, always-current version of these numbers, with charts:
 
 ## How to cite
 
-> Source: Fair Value Calculator, Stock Market Valuation Statistics (2026-08). https://www.fairvalue-calculator.com/stock-market-valuation-statistics
+> Source: Fair Value Calculator, Stock Market Valuation Statistics (2026-09). https://www.fairvalue-calculator.com/stock-market-valuation-statistics
 
 ## License
 
