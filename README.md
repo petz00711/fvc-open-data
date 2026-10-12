@@ -34,6 +34,8 @@ Live, always-current version of these numbers, with charts:
 
 > Source: Fair Value Calculator, Stock Market Valuation Statistics (2026-10). https://www.fairvalue-calculator.com/stock-market-valuation-statistics
 
+DOI (always resolves to the latest monthly release): <https://doi.org/10.5281/zenodo.21639205>
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may share and adapt the data,
