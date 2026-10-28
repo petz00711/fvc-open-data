@@ -1,7 +1,7 @@
 # Fair Value Calculator - Open Data
 
 Open, citable stock-valuation datasets from **[Fair Value Calculator](https://www.fairvalue-calculator.com)**, an independent
-research tool that estimates the fair value and quality of **35,000+ publicly listed stocks
+research tool that estimates the fair value and quality of **40,000+ publicly listed stocks
 worldwide** from multiple valuation models. Founder-run and online since 2016.
 
 These files are refreshed regularly from the live analysis. **Free to use under
@@ -19,6 +19,16 @@ These files are refreshed regularly from the live analysis. **Free to use under
 | [`data/undervalued-stocks.csv`](data/undervalued-stocks.csv) / [`.json`](data/undervalued-stocks.json) | Most undervalued stocks (upside, quality score, evidence). |
 | [`data/overvalued-stocks.csv`](data/overvalued-stocks.csv) / [`.json`](data/overvalued-stocks.json) | Most overvalued stocks. |
 | [`data/value-traps.csv`](data/value-traps.csv) / [`.json`](data/value-traps.json) | Cheap-looking stocks flagged as likely value traps. |
+
+## Fields of the stock lists
+
+`ticker`, `company`, `upside_pct` (gap from price to our fair value in %, positive = undervalued), `quality_score` (0 to 100),
+`price_local` (price in the listing currency), `evidence` (low, medium, high), `sector`, `country`, `url`, `currency`
+(currency of `price_local`) and `market_cap_usd_bn` (market cap in billions of US dollars).
+
+**Correction 2026-10-28:** in the snapshots up to 2026-10-26, `price_local` held the market cap in billions of US dollars
+instead of the price (for example First Solar 18.5 instead of about 170). From 2026-10-28 on, `price_local` is the price and
+the market cap has its own column `market_cap_usd_bn`. Thanks to the reader who spotted it.
 
 ## How the data is built
 

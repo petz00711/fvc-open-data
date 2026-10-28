@@ -2,7 +2,7 @@
     "source": "Fair Value Calculator",
     "url": "https://www.fairvalue-calculator.com/stock-market-valuation-statistics",
     "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). A credit or link to https://www.fairvalue-calculator.com is appreciated.",
-    "method": "Fair value estimated from multiple valuation models across 35,000+ listed stocks; \"percent_above_fair_value\" is the cap-weighted gap between price and fair value (positive = overvalued).",
+    "method": "Fair value estimated from multiple valuation models across 40,000+ listed stocks; \"percent_above_fair_value\" is the cap-weighted gap between price and fair value (positive = overvalued).",
     "month": "2026-10",
     "as_of": "2026-10-01",
     "world": {
