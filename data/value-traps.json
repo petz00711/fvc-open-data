@@ -2,25 +2,17 @@
     "source": "Fair Value Calculator",
     "url": "https://www.fairvalue-calculator.com/value-traps",
     "license": "Free to use under CC BY 4.0 with attribution; a credit or link to https://www.fairvalue-calculator.com is appreciated",
-    "snapshot_date": "2026-10-28",
+    "snapshot_date": "2026-10-29",
     "method_version": "v2026_10_28_kbv_eigene_geschichte",
     "kind": "value-traps",
     "sector": null,
     "count": 40,
+    "kaufregeln_schwellen": {
+        "fv_min": 30,
+        "q_min": 50,
+        "seitwaerts_bis": -10
+    },
     "stocks": [
-        {
-            "ticker": "JSM",
-            "company": "Navient Corporation",
-            "upside_pct": 197.2,
-            "quality_score": 49,
-            "price_local": 15.4,
-            "evidence": "medium",
-            "sector": "energy",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/JSM",
-            "currency": "USD",
-            "market_cap_usd_bn": 5.1
-        },
         {
             "ticker": "688599",
             "company": "Trina Solar Co Ltd",
@@ -32,7 +24,16 @@
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/688599",
             "currency": "CNY",
-            "market_cap_usd_bn": 3.7
+            "market_cap_usd_bn": 3.7,
+            "trend12": false,
+            "trend12_pct": -40.1,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "600039",
@@ -45,7 +46,16 @@
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/600039",
             "currency": "CNY",
-            "market_cap_usd_bn": 10.9
+            "market_cap_usd_bn": 10.9,
+            "trend12": true,
+            "trend12_pct": 4.3,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "CEEB3",
@@ -58,20 +68,38 @@
             "country": "brazil",
             "url": "https://www.fairvalue-calculator.com/stock/CEEB3",
             "currency": "BRL",
-            "market_cap_usd_bn": 2.3
+            "market_cap_usd_bn": 2.3,
+            "trend12": true,
+            "trend12_pct": 46.7,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "CZR",
             "company": "Caesars Entertainment Corporation",
-            "upside_pct": 180.4,
+            "upside_pct": 183.1,
             "quality_score": 40,
-            "price_local": 28.85,
+            "price_local": 28.57,
             "evidence": "medium",
             "sector": "consumer-cyclical",
             "country": "us",
             "url": "https://www.fairvalue-calculator.com/stock/CZR",
             "currency": "USD",
-            "market_cap_usd_bn": 5.9
+            "market_cap_usd_bn": 5.8,
+            "trend12": true,
+            "trend12_pct": 31.4,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "NEXI",
@@ -84,7 +112,16 @@
             "country": "italy",
             "url": "https://www.fairvalue-calculator.com/stock/NEXI",
             "currency": "EUR",
-            "market_cap_usd_bn": 6
+            "market_cap_usd_bn": 6,
+            "trend12": false,
+            "trend12_pct": -3,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "600970",
@@ -97,7 +134,16 @@
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/600970",
             "currency": "CNY",
-            "market_cap_usd_bn": 2.9
+            "market_cap_usd_bn": 2.9,
+            "trend12": false,
+            "trend12_pct": -17.8,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "TEFOF",
@@ -110,7 +156,16 @@
             "country": "us",
             "url": "https://www.fairvalue-calculator.com/stock/TEFOF",
             "currency": "USD",
-            "market_cap_usd_bn": 21.1
+            "market_cap_usd_bn": 21.1,
+            "trend12": false,
+            "trend12_pct": -6.1,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "CYRE3",
@@ -123,7 +178,82 @@
             "country": "brazil",
             "url": "https://www.fairvalue-calculator.com/stock/CYRE3",
             "currency": "BRL",
-            "market_cap_usd_bn": 2.4
+            "market_cap_usd_bn": 2.4,
+            "trend12": false,
+            "trend12_pct": -1.8,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "DNTUY",
+            "company": "Dentsu Inc ADR",
+            "upside_pct": 160.2,
+            "quality_score": 50,
+            "price_local": 21.61,
+            "evidence": "medium",
+            "sector": "communication-services",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/DNTUY",
+            "currency": "USD",
+            "market_cap_usd_bn": 5.6,
+            "trend12": true,
+            "trend12_pct": 13.7,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "ITH",
+            "company": "Ithaca Energy PLC",
+            "upside_pct": 158.8,
+            "quality_score": 42,
+            "price_local": 3.08,
+            "evidence": "medium",
+            "sector": "energy",
+            "country": "uk",
+            "url": "https://www.fairvalue-calculator.com/stock/ITH",
+            "currency": "GBP",
+            "market_cap_usd_bn": 6.8,
+            "trend12": true,
+            "trend12_pct": 48,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "STWD",
+            "company": "Starwood Property Trust Inc",
+            "upside_pct": 156.9,
+            "quality_score": 40,
+            "price_local": 12.24,
+            "evidence": "high",
+            "sector": "financial-services",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/STWD",
+            "currency": "USD",
+            "market_cap_usd_bn": 4.5,
+            "trend12": false,
+            "trend12_pct": -16.1,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "VU",
@@ -136,20 +266,16 @@
             "country": "france",
             "url": "https://www.fairvalue-calculator.com/stock/VU",
             "currency": "EUR",
-            "market_cap_usd_bn": 2.4
-        },
-        {
-            "ticker": "STWD",
-            "company": "Starwood Property Trust Inc",
-            "upside_pct": 152.8,
-            "quality_score": 40,
-            "price_local": 12.44,
-            "evidence": "high",
-            "sector": "financial-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/STWD",
-            "currency": "USD",
-            "market_cap_usd_bn": 4.6
+            "market_cap_usd_bn": 2.4,
+            "trend12": false,
+            "trend12_pct": -45.6,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "INDIGO",
@@ -162,7 +288,16 @@
             "country": "india",
             "url": "https://www.fairvalue-calculator.com/stock/INDIGO",
             "currency": "INR",
-            "market_cap_usd_bn": 19.1
+            "market_cap_usd_bn": 19,
+            "trend12": false,
+            "trend12_pct": -13.3,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "FTA",
@@ -175,7 +310,16 @@
             "country": "",
             "url": "https://www.fairvalue-calculator.com/stock/FTA",
             "currency": "ZAR",
-            "market_cap_usd_bn": 2.3
+            "market_cap_usd_bn": 2.3,
+            "trend12": true,
+            "trend12_pct": 15.8,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "TEF",
@@ -188,12 +332,21 @@
             "country": "spain",
             "url": "https://www.fairvalue-calculator.com/stock/TEF",
             "currency": "EUR",
-            "market_cap_usd_bn": 20.5
+            "market_cap_usd_bn": 20.6,
+            "trend12": false,
+            "trend12_pct": -16.2,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "3311",
             "company": "China State Construction International Holdings Ltd",
-            "upside_pct": 144.7,
+            "upside_pct": 145,
             "quality_score": 38,
             "price_local": 8.53,
             "evidence": "high",
@@ -201,7 +354,38 @@
             "country": "hong-kong",
             "url": "https://www.fairvalue-calculator.com/stock/3311",
             "currency": "HKD",
-            "market_cap_usd_bn": 5.7
+            "market_cap_usd_bn": 5.7,
+            "trend12": false,
+            "trend12_pct": -8.9,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "BEP",
+            "company": "Brookfield Renewable Partners LP",
+            "upside_pct": 144,
+            "quality_score": 28,
+            "price_local": 28.96,
+            "evidence": "medium",
+            "sector": "utilities",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/BEP",
+            "currency": "USD",
+            "market_cap_usd_bn": 13.8,
+            "trend12": false,
+            "trend12_pct": -3,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "1908",
@@ -214,33 +398,38 @@
             "country": "hong-kong",
             "url": "https://www.fairvalue-calculator.com/stock/1908",
             "currency": "HKD",
-            "market_cap_usd_bn": 3.6
-        },
-        {
-            "ticker": "BEP",
-            "company": "Brookfield Renewable Partners LP",
-            "upside_pct": 141.4,
-            "quality_score": 28,
-            "price_local": 29.27,
-            "evidence": "medium",
-            "sector": "utilities",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/BEP",
-            "currency": "USD",
-            "market_cap_usd_bn": 13.8
+            "market_cap_usd_bn": 3.6,
+            "trend12": false,
+            "trend12_pct": -26.5,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "AN",
             "company": "AutoNation Inc",
-            "upside_pct": 131.7,
+            "upside_pct": 132.6,
             "quality_score": 49,
-            "price_local": 164.81,
+            "price_local": 164.18,
             "evidence": "medium",
             "sector": "consumer-cyclical",
             "country": "us",
             "url": "https://www.fairvalue-calculator.com/stock/AN",
             "currency": "USD",
-            "market_cap_usd_bn": 5.6
+            "market_cap_usd_bn": 5.5,
+            "trend12": false,
+            "trend12_pct": -19.6,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "WBD",
@@ -253,7 +442,16 @@
             "country": "italy",
             "url": "https://www.fairvalue-calculator.com/stock/WBD",
             "currency": "EUR",
-            "market_cap_usd_bn": 2.3
+            "market_cap_usd_bn": 2.3,
+            "trend12": false,
+            "trend12_pct": -42.2,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "AURE3",
@@ -266,7 +464,16 @@
             "country": "brazil",
             "url": "https://www.fairvalue-calculator.com/stock/AURE3",
             "currency": "BRL",
-            "market_cap_usd_bn": 3
+            "market_cap_usd_bn": 3,
+            "trend12": true,
+            "trend12_pct": 12.3,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "FGR",
@@ -279,20 +486,38 @@
             "country": "france",
             "url": "https://www.fairvalue-calculator.com/stock/FGR",
             "currency": "EUR",
-            "market_cap_usd_bn": 10.9
+            "market_cap_usd_bn": 10.9,
+            "trend12": true,
+            "trend12_pct": 0,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "PII",
             "company": "Polaris Industries Inc",
-            "upside_pct": 120.3,
+            "upside_pct": 118.1,
             "quality_score": 45,
-            "price_local": 58.06,
+            "price_local": 58.64,
             "evidence": "medium",
             "sector": "consumer-cyclical",
             "country": "us",
             "url": "https://www.fairvalue-calculator.com/stock/PII",
             "currency": "USD",
-            "market_cap_usd_bn": 3.4
+            "market_cap_usd_bn": 3.4,
+            "trend12": false,
+            "trend12_pct": -23.1,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "ISAE4",
@@ -305,33 +530,38 @@
             "country": "brazil",
             "url": "https://www.fairvalue-calculator.com/stock/ISAE4",
             "currency": "BRL",
-            "market_cap_usd_bn": 3.7
+            "market_cap_usd_bn": 3.7,
+            "trend12": true,
+            "trend12_pct": 18.1,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "AGNC",
             "company": "AGNC Investment Corp.",
-            "upside_pct": 111.8,
+            "upside_pct": 112.8,
             "quality_score": 32,
-            "price_local": 8.87,
+            "price_local": 8.86,
             "evidence": "high",
             "sector": "financial-services",
             "country": "us",
             "url": "https://www.fairvalue-calculator.com/stock/AGNC",
             "currency": "USD",
-            "market_cap_usd_bn": 10.3
-        },
-        {
-            "ticker": "DNTUY",
-            "company": "Dentsu Inc ADR",
-            "upside_pct": 109.3,
-            "quality_score": 50,
-            "price_local": 26.1,
-            "evidence": "medium",
-            "sector": "communication-services",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/DNTUY",
-            "currency": "USD",
-            "market_cap_usd_bn": 6.8
+            "market_cap_usd_bn": 10.3,
+            "trend12": true,
+            "trend12_pct": 2.6,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "2588",
@@ -344,7 +574,16 @@
             "country": "hong-kong",
             "url": "https://www.fairvalue-calculator.com/stock/2588",
             "currency": "HKD",
-            "market_cap_usd_bn": 6.2
+            "market_cap_usd_bn": 6.2,
+            "trend12": true,
+            "trend12_pct": 7.7,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "JUN3",
@@ -357,20 +596,38 @@
             "country": "germany",
             "url": "https://www.fairvalue-calculator.com/stock/JUN3",
             "currency": "EUR",
-            "market_cap_usd_bn": 2.5
+            "market_cap_usd_bn": 2.5,
+            "trend12": false,
+            "trend12_pct": -20.3,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
-            "ticker": "ENT",
-            "company": "Entain PLC",
-            "upside_pct": 107.4,
-            "quality_score": 45,
-            "price_local": 4.69,
+            "ticker": "WYNN",
+            "company": "Wynn Resorts Limited",
+            "upside_pct": 106.9,
+            "quality_score": 50,
+            "price_local": 71.38,
             "evidence": "medium",
             "sector": "consumer-cyclical",
-            "country": "uk",
-            "url": "https://www.fairvalue-calculator.com/stock/ENT",
-            "currency": "GBP",
-            "market_cap_usd_bn": 4
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/WYNN",
+            "currency": "USD",
+            "market_cap_usd_bn": 7.4,
+            "trend12": false,
+            "trend12_pct": -37.2,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "002432",
@@ -383,20 +640,16 @@
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/002432",
             "currency": "CNY",
-            "market_cap_usd_bn": 3.6
-        },
-        {
-            "ticker": "WYNN",
-            "company": "Wynn Resorts Limited",
-            "upside_pct": 103.9,
-            "quality_score": 50,
-            "price_local": 72.42,
-            "evidence": "medium",
-            "sector": "consumer-cyclical",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/WYNN",
-            "currency": "USD",
-            "market_cap_usd_bn": 7.5
+            "market_cap_usd_bn": 3.6,
+            "trend12": true,
+            "trend12_pct": 64,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "000001",
@@ -409,7 +662,16 @@
             "country": "china",
             "url": "https://www.fairvalue-calculator.com/stock/000001",
             "currency": "CNY",
-            "market_cap_usd_bn": 33
+            "market_cap_usd_bn": 33,
+            "trend12": true,
+            "trend12_pct": 6.9,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "ANTARCHILE",
@@ -422,7 +684,38 @@
             "country": "",
             "url": "https://www.fairvalue-calculator.com/stock/ANTARCHILE",
             "currency": "CLP",
-            "market_cap_usd_bn": 3.3
+            "market_cap_usd_bn": 3.3,
+            "trend12": true,
+            "trend12_pct": 0.4,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "TAP",
+            "company": "Molson Coors Brewing Co Class B",
+            "upside_pct": 101.8,
+            "quality_score": 49,
+            "price_local": 39.24,
+            "evidence": "medium",
+            "sector": "consumer-defensive",
+            "country": "us",
+            "url": "https://www.fairvalue-calculator.com/stock/TAP",
+            "currency": "USD",
+            "market_cap_usd_bn": 7.4,
+            "trend12": false,
+            "trend12_pct": -16.9,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "036460",
@@ -435,25 +728,21 @@
             "country": "south-korea",
             "url": "https://www.fairvalue-calculator.com/stock/036460",
             "currency": "KRW",
-            "market_cap_usd_bn": 2.4
-        },
-        {
-            "ticker": "TAP",
-            "company": "Molson Coors Brewing Co Class B",
-            "upside_pct": 100.7,
-            "quality_score": 49,
-            "price_local": 39.45,
-            "evidence": "medium",
-            "sector": "consumer-defensive",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/TAP",
-            "currency": "USD",
-            "market_cap_usd_bn": 7.4
+            "market_cap_usd_bn": 2.4,
+            "trend12": false,
+            "trend12_pct": -9.2,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "0392",
             "company": "Beijing Enterprises Holdings Ltd",
-            "upside_pct": 99.9,
+            "upside_pct": 100,
             "quality_score": 48,
             "price_local": 29.38,
             "evidence": "high",
@@ -461,20 +750,16 @@
             "country": "hong-kong",
             "url": "https://www.fairvalue-calculator.com/stock/0392",
             "currency": "HKD",
-            "market_cap_usd_bn": 4.7
-        },
-        {
-            "ticker": "POST",
-            "company": "Post Holdings Inc",
-            "upside_pct": 99.4,
-            "quality_score": 49,
-            "price_local": 79.4,
-            "evidence": "medium",
-            "sector": "consumer-defensive",
-            "country": "us",
-            "url": "https://www.fairvalue-calculator.com/stock/POST",
-            "currency": "USD",
-            "market_cap_usd_bn": 4.1
+            "market_cap_usd_bn": 4.7,
+            "trend12": false,
+            "trend12_pct": -7.4,
+            "trend_stufe": "seitwaerts",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         },
         {
             "ticker": "0267",
@@ -487,7 +772,16 @@
             "country": "hong-kong",
             "url": "https://www.fairvalue-calculator.com/stock/0267",
             "currency": "HKD",
-            "market_cap_usd_bn": 45.2
+            "market_cap_usd_bn": 45.2,
+            "trend12": true,
+            "trend12_pct": 23.1,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "INVP",
@@ -500,7 +794,16 @@
             "country": "uk",
             "url": "https://www.fairvalue-calculator.com/stock/INVP",
             "currency": "GBP",
-            "market_cap_usd_bn": 7.2
+            "market_cap_usd_bn": 7.2,
+            "trend12": true,
+            "trend12_pct": 8.2,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "024110",
@@ -513,7 +816,16 @@
             "country": "south-korea",
             "url": "https://www.fairvalue-calculator.com/stock/024110",
             "currency": "KRW",
-            "market_cap_usd_bn": 11.2
+            "market_cap_usd_bn": 11.2,
+            "trend12": true,
+            "trend12_pct": 10.3,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
         },
         {
             "ticker": "IIFL",
@@ -526,7 +838,60 @@
             "country": "india",
             "url": "https://www.fairvalue-calculator.com/stock/IIFL",
             "currency": "INR",
-            "market_cap_usd_bn": 2.4
+            "market_cap_usd_bn": 2.4,
+            "trend12": true,
+            "trend12_pct": 11.2,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "NED",
+            "company": "Nedbank Group Ltd",
+            "upside_pct": 98.1,
+            "quality_score": 45,
+            "price_local": 292.27,
+            "evidence": "medium",
+            "sector": "financial-services",
+            "country": "",
+            "url": "https://www.fairvalue-calculator.com/stock/NED",
+            "currency": "ZAR",
+            "market_cap_usd_bn": 8.2,
+            "trend12": true,
+            "trend12_pct": 20.1,
+            "trend_stufe": "auf",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": true,
+                "alle": false
+            }
+        },
+        {
+            "ticker": "FPT",
+            "company": "FPT Corp",
+            "upside_pct": 97.9,
+            "quality_score": 42,
+            "price_local": 54000,
+            "evidence": "medium",
+            "sector": "real-estate",
+            "country": "",
+            "url": "https://www.fairvalue-calculator.com/stock/FPT",
+            "currency": "VND",
+            "market_cap_usd_bn": 3.9,
+            "trend12": false,
+            "trend12_pct": -26.6,
+            "trend_stufe": "ab",
+            "kaufregeln": {
+                "fv": true,
+                "qualitaet": false,
+                "trend": false,
+                "alle": false
+            }
         }
     ]
 }
