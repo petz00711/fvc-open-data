@@ -7,7 +7,7 @@ worldwide** from multiple valuation models. Founder-run and online since 2016.
 These files are refreshed regularly from the live analysis. **Free to use under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** with attribution.
 
-> Snapshot month: **2026-10** (as of 2026-10-01) · World market: **14.8% above fair value** (Expensive)
+> Snapshot month: **2026-11** (as of 2026-11-01) · World market: **13.5% above fair value** (Expensive)
 
 ## Datasets
 
@@ -55,7 +55,7 @@ Live, always-current version of these numbers, with charts:
 
 ## How to cite
 
-> Source: Fair Value Calculator, Stock Market Valuation Statistics (2026-10). https://www.fairvalue-calculator.com/stock-market-valuation-statistics
+> Source: Fair Value Calculator, Stock Market Valuation Statistics (2026-11). https://www.fairvalue-calculator.com/stock-market-valuation-statistics
 
 DOI (always resolves to the latest monthly release): <https://doi.org/10.5281/zenodo.21639205>
 
