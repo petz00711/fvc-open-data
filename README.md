@@ -25,19 +25,26 @@ These files are refreshed regularly from the live analysis. **Free to use under
 `ticker`, `company`, `upside_pct` (gap from price to our fair value in %, positive = undervalued), `quality_score` (0 to 100),
 `price_local` (price in the listing currency), `evidence` (low, medium, high), `sector`, `country`, `url`, `currency`
 (currency of `price_local`) and `market_cap_usd_bn` (market cap in billions of US dollars).
+`ticker` is the symbol at the stock's own exchange and is not unique worldwide (FLS is Flowserve in New York and FLSmidth in
+Copenhagen); `url` opens the listed company.
+`country` is the country of this listing, not always the company's home (NetEase in New York is `us`), and can be empty.
 
 Uptrend and the three buy rules of the strategy, at the end of every row:
 
 - `trend12`: Uptrend: true if the price a month ago was higher than twelve months ago (21 against 252 trading days), false if not, null if unknown (less than a year of prices, or a split-sized jump in the window).
 - `trend12_pct`: Change from the price twelve months ago to the price a month ago, in percent; null if unknown.
 - `trend_stufe`: Trend arrow: auf (uptrend), seitwaerts (between -10% and 0%), ab (-10% or lower), null if unknown.
-- `kaufregeln`: The three buy rules of the strategy, each true, false or null: fv = fair value at least 30% above the price, qualitaet = Quality Score of 50 or more, trend = uptrend; alle = true only if all three are met, false as soon as one is not met, otherwise null. In the CSV as kaufregeln_fv, kaufregeln_qualitaet, kaufregeln_trend, kaufregeln_alle.
+- `kaufregeln`: The three buy rules of the strategy, each true, false or null: fv = fair value at least 30% above the price, qualitaet = Quality Score of 50 or more (measured as in the backtest, without the AI Quality points), trend = uptrend; alle = true only if all three are met, false as soon as one is not met, otherwise null. In the CSV as kaufregeln_fv, kaufregeln_qualitaet, kaufregeln_trend, kaufregeln_alle.
 
 In the JSON files `kaufregeln` is an object with the keys `fv`, `qualitaet`, `trend` and `alle`. In the CSV files `true` and
 `false` are written as words, an empty cell means unknown.
 
 **Fields added 2026-10-29:** `trend12`, `trend12_pct`, `trend_stufe` and `kaufregeln` (CSV: four `kaufregeln_*` columns),
 appended after the existing columns.
+
+**Correction 2026-11-02:** in the snapshots up to 2026-11-02, `url` opened a different company with the same ticker in 3 of the
+120 rows (FLSmidth opened Flowserve, Bharat Dynamics opened Flanigans, Capitec opened CPI Europe). From 2026-11-03 on, `url` opens
+the listed company.
 
 **Correction 2026-10-28:** in the snapshots up to 2026-10-26, `price_local` held the market cap in billions of US dollars
 instead of the price (for example First Solar 18.5 instead of about 170). From 2026-10-28 on, `price_local` is the price and
